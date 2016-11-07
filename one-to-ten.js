@@ -2,7 +2,7 @@ var hero = "Saitama";
 var gender = "Male";
 var age = 21;
 var weapon = "One Punch";
-var pronoun = ;
+var pronoun ;
 
 if (gender === "Male"){
   pronoun = "Sir";
@@ -30,14 +30,14 @@ console.log(pronoun + " " + hero + " is our lovable hero, who " + ageStatement +
 
 //new script
 
-var count = ;
+var count ;
 var animal = "Lion";
 
 function animalHouse(x, y){
-  count == (x + y);
+  count = x + y;
   console.log(count);
 }
-animalHouse();
+animalHouse(1, 2);
 
 if (count >= 2){
   console.log("We have too many " + animal + "s");
@@ -51,7 +51,7 @@ else{
 var hero = "Iron Man"
 
 function avengersAssemble(avenger){
-  if (hero = "Iron Man"){
+  if (avenger = "Iron Man"){
   console.log(avenger + " here to kick some roboto butt!");
   }
   if (hero = "Captain America"){
@@ -70,7 +70,7 @@ avengersAssemble(hero);
 
 var lights = true;
 
-if (light = true){
+if (lights = true){
   console.log("And then there was light")  
 }
 else{
@@ -79,9 +79,9 @@ else{
 
 //new script
 
-var carType = ["Toyota", "Lamborghini", "Tesla"]
-var color = ["red", "blue", "black"]
-var num = 9
+var carType = ["Toyota", "Lamborghini", "Tesla"];
+var color = ["red", "blue", "black"];
+var num = 9;
 
 if (carType[0] && color[1]){
   console.log("We have your " + color[1] + " " + carType[0] + ".");
